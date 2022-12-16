@@ -1,11 +1,12 @@
-/* Skills section */
-
 .nopadding {
     padding-bottom: -94px;
 }
 
 .skills {
     display: flex;
+    & .item:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .skills-icon-place {
@@ -19,11 +20,6 @@
     align-items: center;
 
 }
-
-.skills .item:not(:last-child) {
-    margin-right: 30px;
-}
-
 
 .skills-title {
     font-weight: 700;

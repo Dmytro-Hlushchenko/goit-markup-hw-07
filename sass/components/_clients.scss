@@ -1,5 +1,3 @@
-/*Clients*/
-
 .client-list {
     display: flex;
     margin-right: auto;
@@ -23,10 +21,10 @@
     transition-property: fill, border-color;
     transition-duration: 250ms;
     transition-timing-function: var(--cubic-bezier-primary);
+        &:hover,
+        &:focus {
+            fill: var(--active-text-color);
+            border-color: var(--active-text-color);
+        }
 }
 
-.client-link:hover,
-.client-link:focus {
-    fill: var(--active-text-color);
-    border-color: var(--active-text-color);
-}
