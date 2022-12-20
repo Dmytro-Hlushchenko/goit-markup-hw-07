@@ -1,14 +1,24 @@
-.client-list {
+.client__title {
+    margin-bottom: 50px;
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.client__list {
     display: flex;
     margin-right: auto;
     margin-left: auto;
 }
 
-.client-item:not(:last-child) {
+.client__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.client-link {
+.client__link {
     width: 170px;
     height: 92px;
     display: flex;

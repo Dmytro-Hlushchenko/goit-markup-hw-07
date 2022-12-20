@@ -4,19 +4,19 @@
     gap: 30px;
 }
 
-.project-link {
+.project-set__link {
     display: block;
     color: var(--primary-text-color);
     transition: box-shadow 250ms var(--cubic-bezier-primary);
     &:hover {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    &:hover .overlay-project {
+    &:hover .project-set__overlay {
         transform: translateY(0);
         }
     }
 }
 
-.project-name {
+.project-set__name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -24,14 +24,14 @@
     margin-bottom: 4px;
 }
 
-.project-about {
+.project-set__about {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.86;
     letter-spacing: 0.03em;
 }
 
-.project-title {
+.project-set__title {
     padding: 20px 24px;
 
     border-right: 1px solid #eeeeee;
@@ -40,12 +40,12 @@
 
 }
 
-.thumb {
+.project-set__thumb {
     position: relative;
     overflow: hidden;
 }
 
-.overlay-project {
+.project-set__overlay {
     position: absolute;
     display: flex;
 
@@ -72,6 +72,6 @@
     transition-timing-function: var(--cubic-bezier-primary);
 }
 
-.overlay-text {
+.project-set__overlay-text {
     width: 322px;
 }

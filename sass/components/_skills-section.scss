@@ -1,15 +1,13 @@
-.nopadding {
-    padding-bottom: -94px;
-}
 
-.skills {
+
+.skills__list {
     display: flex;
     & .item:not(:last-child) {
         margin-right: 30px;
     }
 }
 
-.skills-icon-place {
+.skills__icon {
     margin-bottom: 30px;
     display: flex;
     width: 270px;
@@ -21,15 +19,7 @@
 
 }
 
-.skills-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-.subtitle {
+.skills__title {
     margin-bottom: 10px;
 
     font-weight: 700;
@@ -39,7 +29,7 @@
     text-transform: uppercase;
 }
 
-.about {
+.skills__about {
     color: var(--secondary-text-color);
     font-size: 14px;
     line-height: 1.71;
