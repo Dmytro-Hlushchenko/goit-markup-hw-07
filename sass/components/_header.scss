@@ -29,7 +29,7 @@
 .navigation__list {
     display: flex;
     margin-left: 93px;
-    & .current {
+    & .current.link{
         color: var(--active-text-color);
         }
     & .item:not(:last-child) {

@@ -87,7 +87,7 @@ img {
   display: flex;
   margin-left: 93px;
 }
-.navigation__list .current {
+.navigation__list .current.link {
   color: var(--active-text-color);
 }
 .navigation__list .item:not(:last-child) {
